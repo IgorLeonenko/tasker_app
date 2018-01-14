@@ -13,6 +13,7 @@ gem "bcrypt", "3.1.7"
 gem "jwt", "2.1.0"
 gem "simple_command", "0.0.9"
 gem "webpacker", "3.2.0"
+gem "dry-validation", "0.11.1"
 
 # authorization
 gem "pundit", "1.1.0"
