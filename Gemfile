@@ -18,6 +18,11 @@ gem "puma", "3.7"
 # gem "redis", "3.0"
 # Use ActiveModel has_secure_password
 gem "bcrypt", "3.1.7"
+gem "jwt", "2.1.0"
+gem "simple_command", "0.0.9"
+
+# authorization
+gem "pundit", "1.1.0"
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 gem "rack-cors"
