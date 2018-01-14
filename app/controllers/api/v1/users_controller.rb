@@ -3,7 +3,7 @@ module Api
     class UsersController < ApiController
       def show
         authorize user
-        render_ok(user)
+        render_ok(UserRepresenter.new(user).basic)
       end
 
       private
