@@ -1,4 +1,4 @@
-def ListRepresenter
+class ListRepresenter
   def initialize(list)
     @list = list
   end
@@ -7,7 +7,7 @@ def ListRepresenter
     {
       id: @list.id,
       name: @list.name,
-      descr: @list.decription,
+      descr: @list.description,
     }
   end
 end

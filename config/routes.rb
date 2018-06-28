@@ -4,8 +4,9 @@ Rails.application.routes.draw do
       post "authenticate", to: "authentication#authenticate"
       post "signup", to: "signup#create"
       resources :users, only: :show
-      resources :lists
-      resources :tasks
+      resources :lists do
+        resources :tasks
+      end
     end
   end
 end
